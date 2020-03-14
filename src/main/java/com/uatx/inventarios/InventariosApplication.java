@@ -13,9 +13,10 @@ public class InventariosApplication {
 	private static final Logger LOGGER = LoggerFactory.getLogger(InventariosApplication.class);
 
 	public static void main(String[] args) {
-		Integer x = 10;
-		Integer y = 20;
-		LOGGER.debug("Hola desde el loger {} {}",x,y);
+		//Integer x = 10;
+		//Integer y = 20;
+		//LOGGER.debug("Hola desde el loger {} {}",x,y);
+		LOGGER.debug("Hola desde el loger");
 
 		SpringApplication.run(InventariosApplication.class, args);
 	}
